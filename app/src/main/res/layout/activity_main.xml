@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- 下载路径 -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/path"/>
+    <EditText
+        android:id="@+id/path"
+        android:text="http://gdown.baidu.com/data/wisegame/91319a5a1dfae322/baidu_16785426.apk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <!-- 下载按钮 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/downloadbutton"
+        android:id="@+id/button"/>
+    <!-- 进度条 -->
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/downloadbar" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/resultView" />
+</LinearLayout>

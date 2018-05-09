@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XiaZaiDemo</string>
+    <string name="path">下载路径</string>
+    <string name="downloadbutton">下载</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+    <string name="success">下载完成</string>
+    <string name="error">下载失败</string>
+</resources>
